@@ -1,0 +1,38 @@
+Desafios Aula 2
+1-Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+
+2-Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+
+3-Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+
+4-Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+
+//desafio 01
+let contador = 1;
+while (contador <=10){
+console.log(contador)
+contador++;
+}
+
+//desafio 02
+
+let contadorDeCrescente = 10;
+while (contadorDeCrescente >=0){
+console.log(contadorDeCrescente);
+contadorDeCrescente--;
+}
+
+//desafio 03
+let numero = prompt('Informe um numero');
+while (numero >=0){
+alert(`Contagem regressiva de ${numero}`)
+numero--
+}
+
+//desafio 04
+let ContagemCrescente = prompt('Digite um numero aqui');
+let valor = 0;
+while (valor <= ContagemCrescente) {
+    alert (`${valor}`);
+    valor++
+}
