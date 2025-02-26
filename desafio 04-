@@ -1,0 +1,56 @@
+1  Criar uma função que exibe "Olá, mundo!" no console.
+
+2  Criar uma função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console.
+
+3  Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
+
+4  Criar uma função que recebe três números como parâmetros e retorna a média deles.
+
+5  Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+
+6  Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+
+//desafio 01
+function boasVindas() {
+console.log('Ola mundo');
+}
+
+boasVindas();
+
+//desafio 02
+function exibirOlaNome(nome) {
+console.log(`Olá, ${nome}!`);
+}
+
+exibirOlaNome("Pedro");
+
+//desafio 03
+function exibirNumero(numero){
+return numero * 2;
+}
+let resultadoDobro = exibirNumero(10);
+console.log(resultadoDobro);
+
+//desafio 04
+function calcularMedia(a, b, c){
+return (a+b+c) / 3;
+}
+let media = calcularMedia (8, 9, 6);
+console.log(media);
+
+//desafio 05
+function encontrarMaior(a, b) {
+//a é maior que b? if a : else b
+return a > b ? a : b;
+}
+
+let maiorNumero = encontrarMaior(45, 8);
+console.log(maiorNumero);
+
+//desafio 06
+function quadrado(numero) {
+  return numero * numero;
+}
+
+let resultado = quadrado(10);
+console.log(resultado);
